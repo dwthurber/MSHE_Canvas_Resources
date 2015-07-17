@@ -1,0 +1,311 @@
+.container-nav {
+    display: table;
+    margin: 0px auto;
+    padding: 0;
+    text-align: center;
+}
+
+.container-nav ul {
+    list-style-type: none;
+    margin: 2 0;
+    padding: 0;
+}
+
+.container-nav ul li a {
+    padding: 10px;
+    background: #4e015c;
+    opacity: 0.8;
+    text-align: center;
+    color: #fff;
+}
+
+.container-nav ul > * {
+    margin-bottom: 10px;
+}
+
+.container-nav ul li a:hover {
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+.container-nav ul li {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.content-links {
+    display: table;
+    margin: 4px 4px 0px 4px;
+    float: left;
+}
+.content-links a {
+    background-color: #ccc;
+    padding: 10px;
+    color: #4e015c;  
+}
+
+.content-links li {
+    list-style-type: none;
+    margin: 8px 6px;
+    display: block;
+    float: left;
+}
+
+.content-links a:hover {
+    padding: 8px 8px;
+    text-decoration: none;
+    color: #eee;
+}
+
+#orientation-text {
+    margin-top: 20px;
+}
+
+
+
+.show-all {
+    font-size: 70%;
+}
+
+.internship-block {
+    margin-left: 15px;
+}
+
+.internship-block a {
+    padding: 5px 10px;
+    background-color: #4e015c;
+    color: #fff;
+    margin-bottom:10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 50px;
+}
+
+.resource-block {
+    padding: 8px;
+}
+
+.resource-block h4 {
+    line-height: 27px;
+}
+
+.wistia {
+    max-width: 640px;
+    height: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.edit-resource {
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+
+.edit-resource img {
+    width:20px;
+    height: auto;
+    opacity: 0.15;
+}
+
+.edit-resource img:hover {
+    width:20px;
+    height: auto;
+    opacity: 0.5;
+}
+
+.editor-hero {
+	background-image: url(/img/congruent_pentagon.png);
+	color: #4e015c;
+	text-align: center;
+	padding: 60px;
+}
+
+#sort {
+    font-size: 70%;
+    display: block;
+}
+
+#sort p {
+    float: left;
+}
+
+#sort ul {
+    list-style-type: none;
+    float: left;
+    display: block;
+    margin: 0 20px;
+    padding: 0;
+}
+
+#sort ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+
+.additional-resources {
+    border: 2px;
+    border-style: solid;
+    border-color: #4e015c;   
+}
+
+.filter-block {
+    background-color: rgba(160,2,189,0.1);
+}
+
+.filter-block form{
+    margin: 10px 0px 10px 10px;
+    padding-bottom: 8px
+}
+
+.filter-title {
+    background-color: rgba(78,1,92,0.3);
+    padding: 5px 10px;
+    margin: 0;
+    color: #4e015c;
+}
+
+.filter-links {
+    list-style-type: none;
+}
+
+.link-container {
+    background-color: rgba(209,209,209,0.3);
+    width: 100%;
+    padding: 5px ;
+    border-bottom: 1px solid white;
+}
+
+.link-container h5 {
+    background-color: #4e015c;
+    display: inline-block;
+    color: #fbe7ff;
+    margin: 5px 0px 10px -15px;
+    padding: 0px 30px 0px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	
+	border-right:10px solid #0c000e; 
+    margin: -20px 0px -18px -15px;
+}
+
+.arrow-left-light {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	
+	border-right:10px solid #9002aa; 
+    margin: -20px 0px 5px -15px;
+}
+
+.right-box {
+    background-color: rgba(209,209,209,0.3);
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.right-box:first-child {
+    margin-top: 10px;
+}
+
+.right-box h5, h6 {
+    background-color: #b102d0;
+    display: inline-block;
+    color: #fbe7ff;
+    margin: 5px 0px 10px -15px;
+    padding: 0px 30px 0px 10px;
+    font-size: medium;
+}
+
+.light {
+    color: #b102d0;
+}
+
+.cal-icon {
+    float: right;
+    width: 20%;
+    max-width: 80px;
+    min-width: 60px;
+    margin: 0px 10px 0px 10px;
+}
+
+.event {
+    padding: 0px 10px;
+    margin-top: -8px;
+}
+
+.cal-date {
+    margin: -20px 0px 16px 0px;
+    font-size: small;
+}
+
+.margin-clear {
+    margin-bottom: 0px;
+}
+
+.social-media {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-media img {
+    width: 33%;
+    max-width: 80px;
+    min-width: 50px;
+    margin: 0px auto;
+    padding: 0 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.quick-links ul {
+    list-style-type: none;
+    margin: -8px 0px 0px 0px;
+}
+
+.submenu {
+    display: none;
+    position: relative;
+    background-color: #333;
+    z-index: 5;
+}
+
+.submenu li {
+  clear: both;
+  padding-left: 20px;
+}
+
+.submenu a {
+    display: block;
+}
+
+#menu li:hover ul {
+    display: block;
+    width: 100%;
+}
+
+.event > p {
+    line-height: 25px;
+}
+.content-block {
+  
+}

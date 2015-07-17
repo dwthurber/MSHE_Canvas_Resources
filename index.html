@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/base.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/css/responsive.css" type="text/css">
+    
+  </head>
+
+  <body>
+    <div class="hero">
+      <h1>Resources</h1>
+      <form>
+        <input type="text"><label><a href="#"><img src="/img/search.png" id="search"></a></label>
+        </form>
+    </div>
+    <section id="first">
+      <div class="container">
+    
+        <div class="sorter">
+          <p>Filter:</p>
+          <ul>
+            <li id="show-all" class="filter" data-filter="all"><a href="#filter">Show All</a></li>
+            <li class="filter" data-filter=".new"><a href="#filter">Newly Admitted Students</a></li>
+            <li class="filter" data-filter=".current"><a href="#filter">Current Students</a></li>
+          </ul>
+        </div>
+        <div class="sorter">
+          <p>Sort:</p>
+          <ul>
+            <li><a href="#sort" class="sort" data-sort="default">Default</a></li>
+            <li><a href="#sort" class="sort" data-sort="myorder:asc">Ascending</a></li>
+            <li><a href="#sort" class="sort" data-sort="myorder:desc">Descending</a></li>
+<!--              <li><a href="#" class="sort" data-sort="random">Random</a></li>-->
+            <li id="split"><a href="#split"><span class="boxes hidden">&#9635;</span><span class="lines">&#9776;</span></a></li>
+          </ul>
+        </div>
+        </div>
+    </section>
+    <section class="alternate-section">
+      <div class="advanced-filter">
+        <div class="more-filter hidden">
+          
+          <form class="controls" id="Filters">
+             <p>Filter information based on the following: <button id="Reset">Clear Filters</button></p>
+            
+            
+
+            <fieldset>
+              <h4>Information Type</h4>
+              <div class="checkbox">
+                <input type="checkbox" value=".academic"/>
+                <label>Academic</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".housing"/>
+                <label>Housing</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".policies"/>
+                <label>Policies</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".career"/>
+                <label>Career Resources</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".life"/>
+                <label>Student Life</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".wellness"/>
+                <label>Health & Wellness</label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <h4>Information Source</h4>
+              <div class="checkbox">
+                <input type="checkbox" value=".mshe"/>
+                <label>MSHE Resource</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".nu"/>
+                <label>NU Resource</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".external"/>
+                <label>External Resource</label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <h4>Student Status</h4>
+              <div class="checkbox">
+                <input type="checkbox" value=".new"/>
+                <label>Newly Admitted Students</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" value=".current"/>
+                <label>Current Students</label>
+              </div>
+            </fieldset>
+
+          </form>
+
+        </div>
+        
+      </div>
+      <div class="filter-toggle">
+        <p><a href="#filter"><span class="arrow-down">&#x25BC</span><span class="arrow-up hidden">&#x25B2;</span> more filter options <span class="arrow-down">&#x25BC</span><span class="arrow-up hidden">&#x25B2;</span></a></p>
+      </div>
+      <div id="Container" class="container">
+        <div class="content-block mix new mshe" data-myorder="2">
+          <h5><a href="#getting_started" id="getting_started">Getting Started Guide</a></h5>
+        </div>
+        <div class="content-block mix new current policies mshe" data-myorder="4">
+          <h5><a href="#policies" id="policies">Policies and Regulations</a></h5>
+        </div>
+        <div class="content-block mix new current career external" data-myorder="5">
+          <h5><a href="#professional-organizations" id="professional-organizations">Professional Organizations</a></h5>
+        </div>
+        <div class="content-block mix new current academic external" data-myorder="6">
+          <h5><a href="#suggested-reading" id="suggested-reading">Suggested Reading List</a></h5>
+        </div>
+        <div class="content-block mix new current housing nu external wellness" data-myorder="3">
+          <h5><a href="#housing-resources" id="housing-resources">Housing Resources</a></h5>
+        </div>
+        <div class="content-block mix new current life housing nu" data-myorder="7">
+          <h5><a href="#transportation" id="transportation">Transportation and Parking</a></h5>
+        </div>
+        <div class="content-block mix new current life nu" data-myorder="1">
+          <h5><a href="#campus-resources" id="campus-resources">Campus Resources</a></h5>
+        </div>
+      
+      </div>
+    </section>
+    <section id="content-area">
+    </section>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+		<script src="/main.js"></script>
+		<script src="/page-loads.js"></script>
+  </body>
+</html>

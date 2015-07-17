@@ -1,0 +1,154 @@
+@media only screen and (max-width: 450px) {
+   h1 {
+      font-size: 280%;
+   }
+    
+    h2 {
+        font-size: 150%;
+    }
+    
+    h3, h4 {
+        font-size: 120%;
+        text-align: center;
+    }
+    
+    header img {
+        width:300px;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 1300px) {   
+    .quick-links {
+        right: 0px;
+        min-width: 280px;
+    }
+    
+}
+    
+@media only screen and (min-width: 900px) {
+    #menu {
+        max-height: none;
+        clear: none;
+    }
+
+    #menu-toggle {
+    	display: none;
+    }
+
+	.thin-hero {
+		padding: 100px 0;
+	}
+
+	header {
+		height: 65px;
+	}
+
+	header nav {
+		float: right;
+		background: none;
+		border: 0;
+	}
+
+	header h1, header li {
+		float: left;
+	}
+
+	header .container {
+		width: 90%;
+	}
+    
+    
+}
+
+@media only screen and (min-width: 800px) {
+
+	input[type="submit"], .button {
+		width: auto;
+	}
+
+	.button {
+		display: inline-block;
+		padding: 15px 30px;
+	}
+
+	input[type="submit"] {
+		float: right;
+		margin: 0;
+	}
+
+	section, footer {
+		padding: 40px 0;
+	}
+
+	.left-column, .right-column {
+		width: 64%;
+	}
+
+	.right-column {
+		width: 31%;
+		margin: 0 0 0 5%;
+	}
+
+	.thirds + .thirds, 
+	.halves + .halves, 
+	.thirds + .halves, 
+	.halves + .thirds {
+		margin-top: 20px;
+	}
+
+	.thirds > div, .full {
+		text-align: center;
+		margin: 0 1%;
+	}
+    
+    .halves > div, .full {
+        margin: 0 1%;
+    }
+
+	.thirds > div, .halves > div, 
+	.left-column, .right-column {
+		float: left;
+	}
+
+	.thirds > div {
+		width: 31%;
+	}
+
+	.halves > div {
+		width: 48%;
+	}
+
+	.full > div {
+		width: 98%;
+	}
+    
+    .submenu {
+        position: absolute;
+        width: 25%;
+        max-width: 280px;
+    }
+    
+    .submenu li a {
+        overflow: none;
+    }
+    
+    .submenu li {
+        display: inline-block!important;
+        padding-left: 0px;
+    }
+    
+    #menu li:hover ul {
+        display: inline-block;
+    }
+    
+    #menu li:hover {
+        background: #333;
+        color: #f2f2f2;
+    }
+    
+    .right-box {
+        margin-top: 0px!important;
+    }
+}
